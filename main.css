@@ -1,64 +1,61 @@
-logo img{
-    display: block;
-    width: 150px;
-    height: 150px;
-    object-fit: cover; /* 画像のトリミング */
-}
-logotohome img{
-    display: block;
-    width: 50px;
-    height: 50px;
-    object-fit: cover; /* 画像のトリミング */
+body {
+    font-family: "Avenir Next";
+    background-color: #f2f2ee
 }
 
-/* トップページの一覧に関するスタイル----------------------------------------------*/
-figure {
-    display: inline-block;   /* インラインブロック化 */
-    margin: 0px 3px 7px 0px; /* 外側に余白を追加(※右に3px・下に7px) */
-    background-color: #efefef; 
-}
-figure img {
-    display: block;          /* 余計な余白が出ないようにする */
-    margin: 0px 0px 3px 0px; /* 下側にだけ3pxの余白を追加 */
-    width: 200px;
-    height: 200px;
-    object-fit: cover; /* 画像のトリミング */
-}
-figcaption {
-    width: 150px;
-    height: 80px;
-    font-size: 0.9em;        /* 文字サイズを90%に */
-    text-align: center;      /* 中身をセンタリング */
-    word-wrap: break-word;
-}
-/* ---------------------------------------------------------------------------*/
-
-
-/* ========== common ========== */
-html, body {
-	font-size: 16px;
-	font-family: sans-serif;
-	color: #393939;
-    margin-left: 15px;
-    margin-bottom: 40px;
-	background: #efefef;
-}
-h1{
-    text-indent: 0em;
-}
-h2{
-    margin-left: 2em;
-    margin-top: 2em;
-}
-h3{
-    margin-left: 3em;
-}
-p,div{
-    margin-left: 5em;
-}
-span.blackback{
-    text-indent: 4em;
-    background: #393939;
-    color: #efefef;
+li{
+    list-style: none
 }
 
+.header{
+    background-color: #54a1d9;
+    color: #f1deb5;
+    height: 90px
+}
+
+.header-logo{
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    font-family:fantasy 
+    
+}
+
+.header-list li{
+    float: left;
+    padding: 30px 40px;
+}
+
+.contents-title{
+    font-size: 50px;
+    font-family: fantasy;
+    padding: 0px 80px;
+    color: #50aa88;
+    border-bottom: 5px solid #54a1d9;
+    border-top: 5px solid #54a1d9;
+    
+}
+
+.container-logo{
+    background-image: url(images/welcome3.png);
+    background-repeat: no-repeat;
+    height: 801px;
+    width: 1424px;
+    float:inherit;
+    
+}
+
+.contents-logo{
+    float: left;
+    padding: 20px 90px;
+    
+}
+
+.contents-logo p{
+    padding: 20px 70px;
+    font-size: 36px;
+    font-family:fantasy;
+    color: #50aa88;
+    border-bottom: 4px solid #54a1d9;
+    
+}

@@ -1,5 +1,5 @@
 <!doctype html>
-
+<html>
 <head>
   <meta charset="UTF-8"/>
 
@@ -7,35 +7,47 @@
     <!--main.cssというファイルにhtmlのスタイルの詳細を記入し、参照している-->
   <link rel="stylesheet" href="main.css">
 </head>
-
-
 <body>
-    <logo>
-        <!--logoはimageフォルダのlogo.pngを使用している。自分のロゴや写真を載せるとわかりやすい-->
-        <img src="images/ham.png" alt="">
-    </logo>
-    <br><br><!--brは改行-->
-    <!--毎週この部分をコピペして追加してく-->
-    <figure>
-        <a href="first.html"><img src="images/hamfirst.png" alt=""></a>
-        <figcaption>キックオフ！</figcaption>
-    </figure>
-     <!-------------------------------->
-    <!--毎週この部分をコピペして追加してく-->
-    <figure>
-        <a href="second.html"><img src="images/tora.png" alt=""></a>
-        <figcaption>キックオフ！②</figcaption>
-    </figure>
-     <!-------------------------------->
+    <div class="header">
+        <div class="header-logo">MAI</div>
+        <div class="header-list">
+            <ul>
+                <li>start</li>
+                <li>group</li>
+                <li>study</li>
+            </ul>
+        </div>
+    </div>
     
-<!--毎週この部分をコピペして追加してく-->
-    <figure>
-        <a href="grouptwo.html"><img src="images/tora.png" alt=""></a>
-        <figcaption>グループ課題②</figcaption>
-    </figure>
-    <!--毎週この部分をコピペして追加してく-->
-    <figure>
-        <a href="think.html"><img src="images/tora.png" alt=""></a>
-        <figcaption>なんかやってるかも</figcaption>
-    </figure>
+    <div class="main">
+        <div class="copy-container">
+            <h1 class="container-logo"></h1>
+        </div>
+        
+        <div class="contents">
+            <h1 class="contents-title">CONTENTS</h1>
+            <div class="contents-logo">
+                <a href="first.html"><img src="images/ice2.png"></a>
+                <p>START</p>
+            </div>
+            <div class="contents-logo">
+                <a href="grouptwo.html"><img src="images/ice.png"></a>
+                <p>GROUP</p>
+            </div>
+            <div class="contents-logo">
+                <a href="think.html"><img src="images/ice2.png"></a>
+                <p>STUDY</p>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+        </div>
+    
+    </div>
+    
+    <div class="footer">
+    
+    </div>
+
 </body>
+</html>
