@@ -38,6 +38,13 @@ li{
     
 }
 
+.contents-title2{
+    padding: 0px 80px;
+    font-family: serif;
+    font-style: italic;
+    
+}
+
 .container-logo{
     background-image: url(images/welcome3.png);
     background-repeat: no-repeat;
